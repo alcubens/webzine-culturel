@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webzine culturel</title>
+  </head>
+  <body>
+    <header id="main-header">
+      <!-- logo -->
+      <svg class="site-logo" width="230" height="100" viewBox="0 0 230 100">
+        <circle cx="50" cy="50" r="30" fill="orange" />
+        <rect x="90" y="25" width="50" height="50" fill="blue" />
+        <circle cx="180" cy="50" r="30" fill="red" />
+      </svg>
+      <h1>Culture & Découverte</h1>
+      <!-- navigation -->
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#" class="nav-item">Accueil</a></li>
+          <li><a href="#" class="nav-item">Actualités</a></li>
+          <li><a href="#" class="nav-item">Podcast</a></li>
+          <li><a href="#" class="nav-item">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <!-- Section 1 : Présentation et Découverte -->
+      <section id="hero-section">
+        <h2>Bienvenue dans notre univers culturel !</h2>
+        <p>
+          La culture est partout autour de nous. Elle nous permet de découvrir
+          de nouvelles idées, de partager des émotions et de mieux comprendre le
+          monde. À travers le cinéma, la musique, les livres et les expositions,
+          nous explorons la <mark>créativité </mark>et la
+          <mark>diversité </mark>des expressions artistiques.
+        </p>
+
+        <p>
+          Notre webzine vous propose des actualités, des critiques et des
+          découvertes accessibles à tous. <br />Que vous soyez passionné de
+          cinéma, amateur de <abbr title="Bande dessinée">BD</abbr> ou curieux
+          de nouvelles tendances, vous trouverez ici de l'inspiration.
+        </p>
+
+        <!-- vidéo -->
+        <video class="promo-video" controls>
+          <source src="media/sample-mp4.mp4" type="video/mp4" />
+          <track
+            kind="subtitles"
+            src="media/sous-titres-fr.vtt"
+            srclang="fr"
+            label="Français"
+            default
+          />
+        </video>
+      </section>
+
+      <!-- Section 2 : Flux d'Actualités -->
+      <section id="latest-posts">
+        <h2>Les dernières actualités</h2>
+
+        <!-- article 1 - cinema-->
+        <article class="post-card">
+          <header>
+            <h3>Cinéma — Le retour du cinéma indépendant</h3>
+            <time class="post-date" datetime="2026-11-12"
+              >12 novembre 2026</time
+            >
+          </header>
+
+          <figure class="post-thumbnail">
+            <img
+              src="media/Cinema.jpg"
+              alt="Salle de cinéma avec des fauteuils rouges et un grand écran"
+            />
+            <figcaption>
+              Le cinéma indépendant propose des histoires originales.
+            </figcaption>
+          </figure>
+
+          <p>
+            Le cinéma indépendant attire de plus en plus de spectateurs. Les
+            réalisateurs proposent des histoires originales et abordent des
+            sujets de société avec un regard différent. Ces films offrent une
+            alternative intéressante aux grandes productions hollywoodiennes.
+          </p>
+
+          <footer>
+            <ul>
+              <li>Cinéma</li>
+              <li>Films indépendants</li>
+              <li>Culture</li>
+            </ul>
+
+            <a href="#">Lire la suite</a>
+          </footer>
+        </article>
+
+        <!-- article 2 - music-->
+        <article class="post-card">
+          <header>
+            <h3>Musique — La nouvelle scène musicale française</h3>
+            <time class="post-date" datetime="2026-11-14"
+              >14 novembre 2026</time
+            >
+          </header>
+
+          <figure class="post-thumbnail">
+            <img
+              src="media/musique.jpg"
+              alt="Musicien sur scène avec un microphone et des lumières colorées"
+            />
+            <figcaption>
+              Les nouveaux artistes français explorent différents styles
+              musicaux.
+            </figcaption>
+          </figure>
+
+          <p>
+            La scène musicale française connaît un véritable renouvellement. De
+            jeunes artistes mélangent la pop, le rap, l'électro et les musiques
+            traditionnelles. Grâce aux plateformes numériques, ils peuvent
+            partager leurs créations avec un public international.
+          </p>
+
+          <footer>
+            <ul>
+              <li>Musique</li>
+              <li>Nouveaux artistes</li>
+              <li>Pop</li>
+            </ul>
+
+            <a href="#">Lire la suite</a>
+          </footer>
+        </article>
+
+        <!-- article 3 - literature-->
+        <article class="post-card">
+          <header>
+            <h3>Littérature — Pourquoi les jeunes redécouvrent les livres</h3>
+            <time class="post-date" datetime="2026-11-25"
+              >25 novembre 2026</time
+            >
+          </header>
+
+          <figure class="post-thumbnail">
+            <img
+              src="media/literature.jpg"
+              alt="Livres ouverts et empilés sur une table avec une tasse de café"
+            />
+            <figcaption>
+              La lecture reste une source de découverte et d'inspiration.
+            </figcaption>
+          </figure>
+
+          <p>
+            Malgré le développement des technologies numériques, la lecture
+            reste une activité appréciée. Les clubs de lecture et les
+            communautés en ligne encouragent les jeunes à découvrir de nouveaux
+            auteurs et à partager leurs impressions.
+          </p>
+
+          <footer>
+            <ul>
+              <li>Livres</li>
+              <li>Lecture indépendants</li>
+              <li>Littérature</li>
+            </ul>
+
+            <a href="#">Lire la suite</a>
+          </footer>
+        </article>
+
+        <!-- article 4 - photographe-->
+        <article class="post-card">
+          <header>
+            <h3>Photographie — L'art de raconter une histoire en images</h3>
+            <time class="post-date" datetime="2026-12-14"
+              >14 décembre 2026</time
+            >
+          </header>
+
+          <figure class="post-thumbnail">
+            <img
+              src="media/photographie.jpg"
+              alt="Photographe prenant une photo dans une rue animée"
+            />
+            <figcaption>
+              La photographie permet de capturer des moments de la vie
+              quotidienne.
+            </figcaption>
+          </figure>
+
+          <p>
+            La photographie est un moyen puissant de raconter des histoires sans
+            utiliser de mots. Aujourd'hui, les appareils numériques et les
+            smartphones permettent à chacun de capturer des moments de la vie
+            quotidienne et de développer son propre style artistique.
+          </p>
+
+          <footer>
+            <ul>
+              <li>Photographie</li>
+              <li>Art</li>
+              <li>Créativité</li>
+            </ul>
+
+            <a href="#">Lire la suite</a>
+          </footer>
+        </article>
+      </section>
+
+      <!-- Section 3 : Espace Podcast & Transcriptions -->
+      <section id="media-center">
+        <h2>La culture au quotidien : pourquoi est-elle importante ?</h2>
+        <audio class="podcast-player" controls>
+          <source src="media/podcast.mp3" type="audio/mpeg" />
+        </audio>
+
+        <details>
+          <summary>Afficher la transcription</summary>
+
+          <div>
+            <dl class="transcript-box">
+              <dt>Animateur :</dt>
+              <dd>Bonjour et bienvenue dans notre podcast culturel !</dd>
+
+              <dt>Invitée :</dt>
+              <dd>Bonjour ! Merci pour votre invitation.</dd>
+            </dl>
+
+            <dl class="transcript-box">
+              <dt>Animateur :</dt>
+              <dd>Aujourd'hui, nous allons parler de cinéma et de musique.</dd>
+
+              <dt>Invitée :</dt>
+              <dd>
+                Ce sont deux formes d'art qui nous permettent de découvrir de
+                nouvelles cultures.
+              </dd>
+            </dl>
+
+            <dl class="transcript-box">
+              <dt>Animateur :</dt>
+              <dd>
+                Il y a aussi la littérature, dont nous parlerons dans le
+                prochain podcast.
+              </dd>
+
+              <dt>Invitée :</dt>
+              <dd>
+                Oui, c'est également une partie très importante de notre
+                culture.
+              </dd>
+            </dl>
+          </div>
+        </details>
+      </section>
+
+      <!-- Section 4 : Données Statistiques -->
+      <section id="authors-ranking">
+        <h2>Classement de nos rédacteurs</h2>
+
+        <!-- tableau -->
+        <table class="data-table">
+          <caption>
+            Statistiques des publications par rédacteur
+          </caption>
+
+          <thead>
+            <tr>
+              <th>Rang</th>
+              <th>Rédacteur</th>
+              <th>Spécialité</th>
+              <th>Articles publiés</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td rowspan="2">1</td>
+              <td>Sophie Martin</td>
+              <td>Cinéma</td>
+              <td>24</td>
+            </tr>
+
+            <tr>
+              <td>Lucas Bernard</td>
+              <td>Musique</td>
+              <td>24</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Emma Petit</td>
+              <td>Littérature</td>
+              <td>15</td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>Thomas Moreau</td>
+              <td>Photographie</td>
+              <td>12</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="3">Total des articles publiés</td>
+              <td>75</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <!-- Section 5 : Interactivité Visuelle -->
+      <section id="interactive-zone">
+        <h2>Carte interactive de France</h2>
+
+        <!-- map -->
+        <img
+          src="media/france-map.png"
+          alt="Carte de France avec Paris et Lyon"
+          usemap="#culture-map"
+        />
+
+        <map name="culture-map">
+          <area
+            shape="rect"
+            coords="350,198,410,278"
+            href="https://fr.wikipedia.org/wiki/Paris"
+            target="_blank"
+            alt="Paris"
+          />
+
+          <area
+            shape="circle"
+            coords="492,424,42"
+            href="https://fr.wikipedia.org/wiki/Lyon"
+            target="_blank"
+            alt="Lyon"
+          />
+        </map>
+
+        <!-- Graphique futur -->
+        <canvas class="stats-canvas" width="400" height="200"></canvas>
+      </section>
+    </main>
+
+    <hr />
+
+    <footer id="main-footer">
+      <!-- contact -->
+      <address class="contact-info">
+        Culture & Découverte<br />
+        10 rue de la Culture, 45000 Orléans<br />
+        <!-- <p>Contact :</p> -->
+        <a href="mailto:contact@culture.com">contact@culture.com</a>
+      </address>
+
+      <!-- liens -->
+      <ul>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Plan du site</a></li>
+        <li><a href="#">Politique de confidentialité</a></li>
+      </ul>
+
+      <!-- Une mention légale -->
+      <small class="copyright-text"> © 2026 - Tous droits réservés</small>
+    </footer>
+  </body>
+</html>
