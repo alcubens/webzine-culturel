@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webzine culturel</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header id="main-header">
@@ -17,10 +18,10 @@
       <!-- navigation -->
       <nav class="navbar">
         <ul class="nav-list">
-          <li><a href="#" class="nav-item">Accueil</a></li>
-          <li><a href="#" class="nav-item">Actualités</a></li>
-          <li><a href="#" class="nav-item">Podcast</a></li>
-          <li><a href="#" class="nav-item">Contact</a></li>
+          <li class="nav-item"><a href="#">Accueil</a></li>
+          <li class="nav-item"><a href="#">Actualités</a></li>
+          <li class="nav-item"><a href="#">Podcast</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -44,8 +45,8 @@
         </p>
 
         <!-- vidéo -->
-        <video class="promo-video" controls>
-          <source src="media/sample-mp4.mp4" type="video/mp4" />
+        <video class="promo-video" controls width="700" height="500">
+          <source src="media/Louvre.mp4" type="video/mp4" />
           <track
             kind="subtitles"
             src="media/sous-titres-fr.vtt"
@@ -279,16 +280,17 @@
 
           <tbody>
             <tr>
-              <td rowspan="2">1</td>
+              <td>1</td>
               <td>Sophie Martin</td>
               <td>Cinéma</td>
               <td>24</td>
             </tr>
 
             <tr>
+              <td>2</td>
               <td>Lucas Bernard</td>
               <td>Musique</td>
-              <td>24</td>
+              <td>20</td>
             </tr>
 
             <tr>
@@ -309,7 +311,7 @@
           <tfoot>
             <tr>
               <td colspan="3">Total des articles publiés</td>
-              <td>75</td>
+              <td>71</td>
             </tr>
           </tfoot>
         </table>

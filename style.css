@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Palette de couleurs */
+/* Ivoire : #F5F0E8 */
+/* Anthracite : #292929 */
+/* Bordeaux : #A64040 */
+
+body {
+  background-color: #f5f0e8;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* 2 L'en-tête et le menu */
+
+#main-header {
+  background-color: #292929;
+  color: #f5f0e8;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 15px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #f5f0e8;
+}
+
+.nav-item a:hover {
+  color: #a64040;
+}
+/* 3 Mise en page classique pour les articles */
+
+#main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.post-card {
+  display: inline-block;
+  width: 48%;
+  border: 1px solid #d5d0c8;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #a6a098;
+}
+
+.post-thumbnail img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 4 Tableaux, Médias et Pseudo-classes */
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid black;
+  text-align: left;
+}
+tbody tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.transcript-box {
+  padding: 15px;
+  border-left: 4px solid #a64040;
+}
+/* 5 Pied de page et Finitions */
+
+#main-footer {
+  background-color: #292929;
+  color: #f5f0e8;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-info {
+  display: block;
+  line-height: 2;
+  margin: 20px;
+}
+
+summary {
+  cursor: pointer;
+}
