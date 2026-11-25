@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webzine culturel</title>
     <!-- <link rel="stylesheet" href="style.css" /> -->
-    <link rel="stylesheet" href="webzine-flex.css" />
+    <!-- <link rel="stylesheet" href="webzine-flex.css" /> -->
+    <link rel="stylesheet" href="webzine-grid.css" />
   </head>
   <body>
     <header id="main-header">
@@ -319,30 +320,31 @@
         <h2>Carte interactive de France</h2>
 
         <!-- map -->
-        <img
-          src="media/france-map.png"
-          alt="Carte de France avec Paris et Lyon"
-          usemap="#culture-map"
-        />
-
-        <map name="culture-map">
-          <area
-            shape="rect"
-            coords="350,198,410,278"
-            href="https://fr.wikipedia.org/wiki/Paris"
-            target="_blank"
-            alt="Paris"
+        <div class="map-container">
+          <img
+            src="media/france-map.png"
+            alt="Carte de France avec Paris et Lyon"
+            usemap="#culture-map"
           />
 
-          <area
-            shape="circle"
-            coords="492,424,42"
-            href="https://fr.wikipedia.org/wiki/Lyon"
-            target="_blank"
-            alt="Lyon"
-          />
-        </map>
+          <map name="culture-map">
+            <area
+              shape="rect"
+              coords="350,198,410,278"
+              href="https://fr.wikipedia.org/wiki/Paris"
+              target="_blank"
+              alt="Paris"
+            />
 
+            <area
+              shape="circle"
+              coords="492,424,42"
+              href="https://fr.wikipedia.org/wiki/Lyon"
+              target="_blank"
+              alt="Lyon"
+            />
+          </map>
+        </div>
         <!-- Graphique futur -->
         <canvas class="stats-canvas" width="400" height="200"></canvas>
       </section>
